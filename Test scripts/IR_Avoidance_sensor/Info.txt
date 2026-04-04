@@ -1,0 +1,23 @@
+3 pins
+out GND VCC
+
+out = Digital output 
+Low = obstacle
+high = clear
+
+GND = Ground
+
+VCC = connect to 3V-5V
+
+Emits light from LED and detects reflections from the photodiode
+has a build in potentiometer that allows distances from 2cm-30cm
+Turning the potentiometer clockwise increases the distance, Counterclockwise decrease the distance
+
+In the Lafvin 2wd the Right is connected on D9 and left on D5
+
+| Left | Right | Meaning        | Action      |
+| ---- | ----- | -------------- | ----------- |
+| HIGH | HIGH  | Clear          | FORWARD     |
+| LOW  | HIGH  | Obstacle LEFT  | TURN RIGHT  |
+| HIGH | LOW   | Obstacle RIGHT | TURN LEFT   |
+| LOW  | LOW   | Obstacle BOTH  | STOP / BACK |
