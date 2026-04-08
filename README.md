@@ -14,7 +14,7 @@ This project is a modular embedded robotics platform where each script implement
 - Arduino Uno
 * Ultrasonic sensor (HC-SR04)
 + 2× IR line tracking sensors
-- Servo motor
+- 2× Servo motor
 * 2× DC motors with motor driver
 
 ## Software & Concepts
